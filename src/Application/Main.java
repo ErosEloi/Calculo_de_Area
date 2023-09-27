@@ -4,14 +4,12 @@
  perimetro e diagonal. Usar uma classe como mostrado no projeto ao lado.
  */
 
-
 package Application;
 
 public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
-
 	}
 
 }
