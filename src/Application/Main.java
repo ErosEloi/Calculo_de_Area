@@ -6,10 +6,24 @@
 
 package Application;
 
+import java.util.*;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		Scanner sc = new Scanner(System.in);
+		Retangulo rect = new Retangulo();
+
+		System.out.print("Digite o valor da altura: ");
+		rect.altura = sc.nextDouble();
+
+		System.out.print("Digite o valor da largura: ");
+		rect.largura = sc.nextDouble();
+
+		System.out.printf("área: %.2f / ", rect.area());
+		System.out.printf("perimetro: %.2f / ", rect.perimetro());
+		System.out.printf("diagonal: %.2f / ", rect.diagonal());
+
 	}
 
 }
